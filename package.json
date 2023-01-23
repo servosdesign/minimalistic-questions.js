@@ -1,0 +1,31 @@
+{
+  "scripts": {
+    "live": "live-server --open=index.html",
+    "build": "tsc -p tsconfig.json",
+    "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore"
+  },
+  "dependencies": {
+    "eslint-config-standard": "^17.0.0",
+    "standard": "*"
+  },
+  "devDependencies": {
+    "eslint": "^8.22.0",
+    "ts-loader": "^9.4.2",
+    "typescript": "^4.9.4"
+  },
+  "name": "minimalistic-questions",
+  "description": "",
+  "version": "1.0.0",
+  "main": ".eslintrc.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/servosdesign/minimalistic-questions.js.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/servosdesign/minimalistic-questions.js/issues"
+  },
+  "homepage": "https://github.com/servosdesign/minimalistic-questions.js#readme"
+}
