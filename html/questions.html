@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link rel="stylesheet" type="text/css" href="../styles/style.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Questions</title>
+  <script type="text/javascript" src="../scripts/question-bank.js" defer></script>
+</head>
+
+<body>
+  <h3 id="counter"></h3>
+  <div class="wrapper">
+    <li class="icon button" id="prev" onClick="prevQuestion()">
+      <span class="tooltip">Previous</span>
+      <span><i>&lt</i></span>
+    </li>
+
+    <div id="questions">
+      <input type="radio" id="choices">
+    </div>
+
+    <li class="icon button" id="next" onClick="nextQuestion()">
+      <span id="submition" class="tooltip">Next</span>
+      <span><i>&gt</i></span>
+    </li>
+    <li class="icon button" id="restart" onClick="restartQuiz()">
+      <span class="tooltip">&#x21bb</span>
+      <span><i>&#x21bb</i></span>
+    </li>
+  </div </body>
+
+</html>
