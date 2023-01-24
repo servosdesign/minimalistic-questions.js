@@ -1,7 +1,6 @@
 {
   "scripts": {
     "live": "live-server --open=index.html",
-    "build": "tsc -p tsconfig.json",
     "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore"
   },
   "dependencies": {
@@ -9,9 +8,7 @@
     "standard": "*"
   },
   "devDependencies": {
-    "eslint": "^8.22.0",
-    "ts-loader": "^9.4.2",
-    "typescript": "^4.9.4"
+    "eslint": "^8.22.0"
   },
   "name": "minimalistic-questions",
   "description": "",
